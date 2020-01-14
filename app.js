@@ -45,3 +45,22 @@ var veg = ["Black-eyed Peas", "Green beans", "Corn", "Spinach"];
 for(var i = 0; i < veg.length; i++) {
     console.log(veg[i]);
 }
+
+let people2 = [
+    {name: 'Mary', age: 30},
+    {name: 'Rita', age: 19},
+    {name: 'Alex', age: 25},
+    {name: 'Olav', age: 23},
+    {name: 'Patrick', age: 17},
+]
+
+function checkAge2() {
+    for (i = 0; i < people2.length; i++) {
+        if (people2[i].age < 21) {
+            alert('Sorry ' + people2[i].name + ', you are too young!');
+        } else {
+            alert('Welcome ' + people2[i].name + ' to the party!');
+        }
+    }
+}
+checkAge2();
