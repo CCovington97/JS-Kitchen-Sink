@@ -64,3 +64,13 @@ function checkAge2() {
     }
 }
 checkAge2();
+
+var words = "Hello World";
+getLength();
+function getLength() {
+    if (words.length % 2 === 1) {
+        console.log("The world is an odd place");
+    } else {
+        console.log("The world is nice and even");
+    }
+}
